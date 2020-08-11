@@ -10,7 +10,10 @@ $(document).ready(function() {
            e.preventDefault(); //Don't buuton function
            sound.start();
          });
-
+    $("test").click(function(e){
+      e.preventDefault();
+      sound.seek(4800);
+    })
     // stop the music
     $('#stop').click(function(e) {
           e.preventDefault();
