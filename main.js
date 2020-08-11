@@ -12,7 +12,7 @@ $(document).ready(function() {
          });
     $("#test").click(function(e){
       e.preventDefault();
-      alert(getDuration());
+      alert(sound.getDuration());
     })
     // stop the music
     $('#stop').click(function(e) {
