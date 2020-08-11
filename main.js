@@ -4,7 +4,7 @@ SC.initialize({
 
 $(document).ready(function() {
   // soundcloude song id
-  SC.stream('/tracks/298956840',function(sound){
+  SC.stream('/tracks/641570523',function(sound){
     // start the music
     $('#start').click(function(e) {
            e.preventDefault(); //Don't buuton function
