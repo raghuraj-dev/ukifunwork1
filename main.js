@@ -10,7 +10,7 @@ $(document).ready(function() {
            e.preventDefault(); //Don't buuton function
            sound.start();
          });
-    $("test").click(function(e){
+    $("#test").click(function(e){
       e.preventDefault();
       sound.pause();
     })
