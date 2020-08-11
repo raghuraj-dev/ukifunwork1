@@ -8,13 +8,9 @@ $(document).ready(function() {
     // start the music
     $('#start').click(function(e) {
            e.preventDefault(); //Don't buuton function
-           alert("Start");
            sound.start();
          });
-    $("#test").click(function(e){
-      e.preventDefault();
-      console.log(sound);
-    })
+
     // stop the music
     $('#stop').click(function(e) {
           e.preventDefault();
