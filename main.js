@@ -12,7 +12,7 @@ $(document).ready(function() {
          });
     $("test").click(function(e){
       e.preventDefault();
-      sound.seek(4800);
+      sound.pause();
     })
     // stop the music
     $('#stop').click(function(e) {
