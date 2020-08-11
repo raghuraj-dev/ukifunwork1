@@ -12,7 +12,8 @@ $(document).ready(function() {
          });
     $("#test").click(function(e){
       e.preventDefault();
-      sound.pause();
+      alert();
+      sound.seek(4800);
     })
     // stop the music
     $('#stop').click(function(e) {
