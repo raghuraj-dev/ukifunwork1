@@ -36,9 +36,9 @@ $(document).ready(function() {
       e.preventDefault();
       sound.setVolume(60);
     });
-    $("#timer").click(function(e){
+    $("#Position").click(function(e){
       e.preventDefault();
-      alert(sound.onTimer());
+      alert(sound.position());
     });
   });
 });
