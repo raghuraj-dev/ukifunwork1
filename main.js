@@ -34,11 +34,11 @@ $(document).ready(function() {
     });
     $("#volume").click(function(e){
       e.preventDefault();
-      sound.setVolume(1);
+      sound.setVolume(60);
     });
     $("#timer").click(function(e){
       e.preventDefault();
-      alert(onTimer());
+      alert(sound.onTimer());
     });
   });
 });
