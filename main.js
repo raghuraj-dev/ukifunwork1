@@ -16,6 +16,29 @@ $(document).ready(function() {
           e.preventDefault();
           sound.stop();
         });
-
+    $("#Duration").click(function(e){
+      e.preventDefault();
+      alert(sound.duration);
+    });
+    $("#mute").click(function(e){
+      e.preventDefault();
+      sound.toggleMute();
+    });
+    $("#pause").click(function(e){
+      e.preventDefault();
+      sound.pause();
+    });
+    $("#position").click(function(e){
+      e.preventDefault();
+      sound.setPosition(10000);
+    });
+    $("#volume").click(function(e){
+      e.preventDefault();
+      sound.setVolume(1);
+    });
+    $("#timer").click(function(e){
+      e.preventDefault();
+      alert(onTimer());
+    });
   });
 });
