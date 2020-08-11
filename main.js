@@ -38,7 +38,7 @@ $(document).ready(function() {
     });
     $("#Position").click(function(e){
       e.preventDefault();
-      alert(sound.position());
+      alert(sound.position);
     });
   });
 });
