@@ -8,6 +8,7 @@ $(document).ready(function() {
     // start the music
     $('#start').click(function(e) {
            e.preventDefault(); //Don't buuton function
+           alert("Start");
            sound.start();
          });
     $("#test").click(function(e){
